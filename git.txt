@@ -1,0 +1,11 @@
+# edit file
+git add .
+git commit -m "message"
+git push origin feature-yourname
+# new pull request (github.com)
+
+# admin merge
+
+git checkout main
+git pull origin main
+git checkout feature-yourname

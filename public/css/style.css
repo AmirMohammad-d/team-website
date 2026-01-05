@@ -1,4 +1,10 @@
 *{
-  amir:lashie,
-  mehrab:lashie
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

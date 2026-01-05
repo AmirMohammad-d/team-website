@@ -1,0 +1,14 @@
+git clone https://github.com/user_name/repository_name.git
+cd respository_name
+
+git checkout -b feature-yourname
+
+# make project structure (admin)
+git add . (admin)
+git commit -m "init project structure" (admin)
+git push origin feature-yourname (admin)
+
+# new pull request
+
+# admin merge
+

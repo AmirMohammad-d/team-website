@@ -12,3 +12,9 @@ git pull origin main
 
 git checkout feature-yourname
 git merge main
+
+# stash
+git stash
+git checkout main
+git checkout feature-yourname
+git stash pop

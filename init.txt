@@ -8,7 +8,6 @@ git add . (admin)
 git commit -m "init project structure" (admin)
 git push origin feature-yourname (admin)
 
-# new pull request
+# new pull request (admin)
 
-# admin merge
-
+# merge (admin)

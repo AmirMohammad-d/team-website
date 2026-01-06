@@ -2,10 +2,19 @@
 git add .
 git commit -m "message"
 git push origin feature-yourname
-# new pull request (github.com)
 
-# admin merge
+# new pull request from github.com
+# merge (admin)
 
+# before start
 git checkout main
 git pull origin main
+
 git checkout feature-yourname
+git merge main
+
+# stash
+git stash
+git checkout main
+git checkout feature-yourname
+git stash pop
